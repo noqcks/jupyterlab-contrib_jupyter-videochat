@@ -4,7 +4,7 @@ import { ReadonlyPartialJSONObject } from '@lumino/coreutils';
 
 import { IVideoChatManager, ITrans } from '../tokens';
 import { Room, VideoChatConfig, IJitsiFactory } from '../types';
-import { JitsiMeetComponent } from './JitsiMeet';
+import JitsiMeetComponent from './JitsiMeet';
 import { RoomsListComponent } from './RoomsList';
 import { JitsiMeetExternalAPI } from 'jitsi-meet';
 
