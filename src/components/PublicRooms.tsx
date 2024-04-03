@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { CSS, RoomsListProps } from '../tokens';
 import * as icons from '../icons';
 
-import { littleIcon, openBlank } from './RoomsList';
+import { openBlank } from './RoomsList';
 
 /**
  * A component for rendering public rooms
