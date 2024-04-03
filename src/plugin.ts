@@ -14,12 +14,12 @@ import { launcherIcon, stopIcon } from '@jupyterlab/ui-components';
 import { ITranslator, nullTranslator } from '@jupyterlab/translation';
 
 import {
-  CommandToolbarButton,
   ICommandPalette,
   Toolbar,
   WidgetTracker,
   MainAreaWidget,
 } from '@jupyterlab/apputils';
+import { ToolbarButton } from '@jupyterlab/ui-components';
 
 import { IFileBrowserFactory } from '@jupyterlab/filebrowser';
 import { ISettingRegistry } from '@jupyterlab/settingregistry';
