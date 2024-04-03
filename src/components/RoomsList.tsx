@@ -36,7 +36,7 @@ export const RoomsListComponent = (props: RoomsListProps): JSX.Element => {
   return (
     <div className={`${CSS}-rooms`}>
       <label id={`id-${CSS}-user-info`}>
-        <icons.userIcon.react {...littleIcon} />
+        <icons.userIcon.react {...littleIcon} />.render()
         My Chat Info
       </label>
       <ul aria-labelledby={`id-${CSS}-user-info`}>
