@@ -21,7 +21,7 @@ export const ServerRoomsComponent = (props: RoomsListProps): JSX.Element => {
   return (
     <div className={`${CSS}-rooms-server`}>
       <label id={`id-${CSS}-server-room-list`}>
-        <icons.groupIcon.react {...littleIcon} />
+        React.createElement(icons.groupIcon.react, {...littleIcon})
         {__('Select Room to join')}
       </label>
       <ul aria-labelledby={`id-${CSS}-server-room-list`}>
@@ -45,7 +45,7 @@ export const ServerRoomsComponent = (props: RoomsListProps): JSX.Element => {
       </ul>
 
       <label id={`id-${CSS}-new-server-room-list`}>
-        <icons.newGroupIcon.react {...littleIcon} />
+        React.createElement(icons.newGroupIcon.react, {...littleIcon})
         {__('Join Room by name')}
       </label>
       <ul aria-labelledby={`id-${CSS}-new-server-room-list`}>
