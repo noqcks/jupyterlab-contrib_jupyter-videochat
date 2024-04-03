@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { CSS, RoomsListProps } from '../tokens';
 import * as icons from '../icons';
 
-import { noRoom, littleIcon } from './RoomsList';
+import { noRoom } from './RoomsList';
 
 export const openBlank = {
   target: '_blank',
