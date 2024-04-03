@@ -97,7 +97,7 @@ async function activateCore(
 
     const disconnectBtn = new CommandToolbarButton({
       id: CommandIds.disconnect,
-      commands,
+      commands: app.commands,
       icon: stopIcon,
     });
 
