@@ -6,6 +6,7 @@ import { IVideoChatManager, ITrans } from '../tokens';
 import { Room, VideoChatConfig, IJitsiFactory } from '../types';
 import { JitsiMeetComponent } from './JitsiMeet';
 import { RoomsListComponent } from './RoomsList';
+import React from 'react';
 import { JitsiMeetExternalAPI } from 'jitsi-meet';
 
 export type VideoChatProps = {
