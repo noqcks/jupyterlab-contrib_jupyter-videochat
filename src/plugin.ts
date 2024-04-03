@@ -95,9 +95,9 @@ async function activateCore(
 
     widget.toolbar.addItem(ToolbarIds.SPACER_RIGHT, Toolbar.createSpacerItem());
 
-    const disconnectBtn = new CommandToolbarButton({
-      id: CommandIds.disconnect,
-      commands: app.commands,
+    const disconnectBtn = new ToolbarButton({
+      label: __('Disconnect Video Chat'),
+      onClick: () => { commands.execute(CommandIds.disconnect); },
       icon: stopIcon,
     });
 
