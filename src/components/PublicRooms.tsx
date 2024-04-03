@@ -15,7 +15,7 @@ export const PublicRoomsComponent = (props: RoomsListProps): JSX.Element => {
   return (
     <div className={`${CSS}-rooms-public`}>
       <label id={`id-${CSS}-public-room-list`}>
-        <icons.publicIcon.react {...littleIcon} />
+        React.createElement(icons.publicIcon.react, {...littleIcon})
         {__('Join Public room by name')}
       </label>
       <ul aria-labelledby={`id-${CSS}-public-room-list`}>
