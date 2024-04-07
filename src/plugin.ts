@@ -333,7 +333,7 @@ const serverRoomsPlugin: JupyterFrontEndPlugin<void> = {
 const publicRoomsPlugin: JupyterFrontEndPlugin<void> = {
   id: `${NS}:rooms-public`,
   autoStart: true,
-  requires: [IVideoChatManager],
+  requires: [],
   optional: [IRouter, ICommandPalette],
   activate: activatePublicRooms,
 };
