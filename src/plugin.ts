@@ -474,7 +474,7 @@ function activateRetro(
       1000,
       'new-videochat',
       new CommandToolbarButton({
-        commands,
+        commands: app.commands,
         id: CommandIds.openTab,
       })
     );
