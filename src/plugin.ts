@@ -321,7 +321,7 @@ function activateServerRooms(
 const serverRoomsPlugin: JupyterFrontEndPlugin<void> = {
   id: `${NS}:rooms-server`,
   autoStart: true,
-  requires: [IVideoChatManager],
+  requires: [],
   optional: [IRouter],
   activate: activateServerRooms,
 };
