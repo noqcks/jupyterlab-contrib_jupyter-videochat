@@ -334,7 +334,7 @@ const publicRoomsPlugin: JupyterFrontEndPlugin<void> = {
   id: `${NS}:rooms-public`,
   autoStart: true,
   requires: [],
-  optional: [IRouter, ICommandPalette],
+  optional: [IRouter],
   activate: activatePublicRooms,
 };
 
