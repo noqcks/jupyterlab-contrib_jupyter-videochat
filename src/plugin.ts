@@ -136,7 +136,7 @@ async function activateCore(
     DEBUG && console.warn(`add to shell in are ${area}, ${!activate || 'not '} active`);
     area = area || manager.currentArea;
     if (labShell) {
-      labShell.add(widget, area);
+      labShell.add(widget.content, area);
       updateTitle();
       widget.update();
       if (!tracker.has(widget)) {
